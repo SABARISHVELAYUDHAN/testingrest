@@ -10,7 +10,7 @@ function myFunction(){
         
     getIP().then(data => console.log(data));
 
-    document.getElementById("demo").innerHTML = window.alert("error");
+    document.getElementById("demo").innerHTML = window.alert("IP Address shown above");
 
 }
 
